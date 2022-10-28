@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:hospital_auth/screens/singin_screen.dart';
-
 import '../main.dart';
 
 class first_page extends StatefulWidget {
@@ -16,32 +13,60 @@ class _first_pageState extends State<first_page> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        backgroundColor: Colors.white,
         appBar: AppBar(
-          backgroundColor: Colors.transparent,
+          backgroundColor: Colors.blue.shade400,
           elevation: 0,
           title: const Text(
-            "WELCOME",
+            "HOSPITAL HELP",
             style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
           ),
         ),
-        body: Column(
+        body: Center(
+            child: Column(
           children: <Widget>[
-            ElevatedButton(
-              child: Text("USER"),
-              onPressed: () {
-                a = 1;
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => SignInScreen()));
-              },
+            const SizedBox(
+              height: 250,
             ),
-            ElevatedButton(
-                child: Text("ADMIN"),
+            const Text(
+              "Sign in as -",
+              style: TextStyle(fontSize: 30),
+            ),
+            const SizedBox(
+              height: 20,
+            ),
+            SizedBox(
+              width: double.infinity,
+              child: ElevatedButton(
+                child: const Text("USER"),
+                style: ElevatedButton.styleFrom(
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(50))),
                 onPressed: () {
-                  a = 2;
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => SignInScreen()));
-                }),
+                  a = 1;
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const SignInScreen()));
+                },
+              ),
+            ),
+            SizedBox(
+              width: double.infinity,
+              child: ElevatedButton(
+                  child: const Text("ADMIN"),
+                  style: ElevatedButton.styleFrom(
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(50))),
+                  onPressed: () {
+                    a = 2;
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const SignInScreen()));
+                  }),
+            ),
           ],
-        ));
+        )));
   }
 }
