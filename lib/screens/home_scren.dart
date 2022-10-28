@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
+import 'package:hospital_auth/screens/first_page.dart';
 import 'package:hospital_auth/screens/singin_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -20,7 +21,7 @@ class _HomeScreenState extends State<HomeScreen> {
         FirebaseAuth.instance.signOut().then((value) {
           print("SIGNOUT");
           Navigator.push(
-              context, MaterialPageRoute(builder: (context) => SignInScreen()));
+              context, MaterialPageRoute(builder: (context) => first_page()));
         });
       },
     ));
