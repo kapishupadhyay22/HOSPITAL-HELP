@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "62674034381",
+    "project_id": "flutter-doctor-351b6",
+    "storage_bucket": "flutter-doctor-351b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62674034381:android:94e67f9944725a8b119384",
+        "android_client_info": {
+          "package_name": "com.example.hospital_auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62674034381-5trqpvgaegtqm9lanmh60uh9hcuta9lh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hospital_auth",
+            "certificate_hash": "825a2349fd222c354e2d112b7ecb41efe0fa8f13"
+          }
+        },
+        {
+          "client_id": "62674034381-st8igemek5auksugr0dcklrbjv3e77f7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIRfPy9UuV2h6tCGnBahTc2GteJVIpgFM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "62674034381-st8igemek5auksugr0dcklrbjv3e77f7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
