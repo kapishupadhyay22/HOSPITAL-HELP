@@ -46,7 +46,11 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
+<<<<<<< Updated upstream
 		fVnRFc+0zdCY1YlSvkq7lel9eaM=
+=======
+		kMq5Zxu204hwW5tsOzf2NL5YoqU=
+>>>>>>> Stashed changes
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,7 +58,11 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
+<<<<<<< Updated upstream
 		EZNifWeg2xht+lTThdmLi4bnq3A=
+=======
+		v8acZ84oCZSjajTULlPuHeWX6aM=
+>>>>>>> Stashed changes
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
@@ -94,7 +102,11 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
+<<<<<<< Updated upstream
 		ggXDDRnkxd1O/GMDiRMIANs3Ozw=
+=======
+		jJPq16d0FgO55FO9YTgrHZMjmtA=
+>>>>>>> Stashed changes
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -122,7 +134,11 @@
 		</data>
 		<key>Frameworks/FirebaseAuth.framework/FirebaseAuth</key>
 		<data>
+<<<<<<< Updated upstream
 		ETFuKHhufJMlaA33QnyysaGB76Q=
+=======
+		FKGMRSBM+TTUDjOi8WsImwk8WUU=
+>>>>>>> Stashed changes
 		</data>
 		<key>Frameworks/FirebaseAuth.framework/Info.plist</key>
 		<data>
@@ -134,7 +150,11 @@
 		</data>
 		<key>Frameworks/FirebaseCore.framework/FirebaseCore</key>
 		<data>
+<<<<<<< Updated upstream
 		qPeJKdjVUyhvjJC82ZtgyjB11uo=
+=======
+		7OthrpTnoChbVH9dERJ+U4GwPpo=
+>>>>>>> Stashed changes
 		</data>
 		<key>Frameworks/FirebaseCore.framework/Info.plist</key>
 		<data>
@@ -353,7 +373,11 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			qgj0sKD3wgh+1n56HjquWSVLTgzV/X5m39qv18FP2GU=
+=======
+			D6m+jJsEjkRZ9+PWp1lOkYR1p1EO/57/GpPKwb2mrWk=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -367,7 +391,11 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			GLNCTGM+Pe/LKkLJXXZkv9PVVVljVg5lyVwDvzIC2xI=
+=======
+			BOCblwIbw5zpfP7yvuX1qNMeNNEWPx/dJblATouamWE=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
@@ -437,7 +465,11 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			2FMiF7QJFVRtWORHiu9bj1lVSdIJIvO3V/iDHD/7LXk=
+=======
+			7Zgre/N+slXvA+/iljdLXw5zIBewulIPWwWKh4YbVw4=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -486,7 +518,11 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			Vv3k/JZISdOrvjGp+EqlAhdNRgk4R/T0oQlp+J1uaIg=
+=======
+			PEPNI+Yst9fEwOmromrxzxIik/cqVb4a0Nlp5ZfTwjk=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Frameworks/FirebaseAuth.framework/Info.plist</key>
@@ -507,7 +543,11 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			DHQQtSwei2A+wNBm4g9CfsYEA/k90/5L75XKmZsGVbg=
+=======
+			c+CAowz1DLDHEGjAIh75+y/+6uT5I2M5MfxsfdB9h88=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Frameworks/FirebaseCore.framework/Info.plist</key>
