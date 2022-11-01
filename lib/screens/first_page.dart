@@ -13,9 +13,9 @@ class _first_pageState extends State<first_page> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.white,
+        extendBodyBehindAppBar: true,
         appBar: AppBar(
-          backgroundColor: Colors.blue.shade400,
+          backgroundColor: Colors.transparent,
           elevation: 0,
           title: const Text(
             "HOSPITAL HELP",
