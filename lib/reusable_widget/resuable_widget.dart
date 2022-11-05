@@ -39,6 +39,27 @@ TextField reusableTextField(String text, IconData icon, bool isPasswordType,
   );
 }
 
+Container listButton(String buttonText, BuildContext context) {
+  return Container(
+    width: MediaQuery.of(context).size.width,
+    height: 160,
+    child: ElevatedButton(
+      child: Text(buttonText),
+      onPressed: () {},
+      style: ButtonStyle(
+          //want to making elevation of the button as zero
+          backgroundColor: MaterialStateProperty.resolveWith((states) {
+            if (states.contains(MaterialState.pressed)) {
+              return Colors.black26;
+            }
+            return Colors.transparent;
+          }),
+          shape: MaterialStateProperty.all(
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)))),
+    ),
+  );
+}
+
 Container signInSignUpButton(
     BuildContext context, bool isLogin, Function onTap) {
   return Container(
