@@ -35,7 +35,7 @@ class _DoctorBookState extends State<DoctorBook> {
               width: MediaQuery.of(context).size.width * 0.8,
               height: 500,
               child: Image.asset(
-                "assets/images/doctor.png",
+                "assets/images/doctor.png", //change this icon accordingly
               )),
           Container(
             width: MediaQuery.of(context).size.width,
