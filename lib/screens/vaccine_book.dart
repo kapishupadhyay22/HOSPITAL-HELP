@@ -60,8 +60,12 @@ class _VaccineBookState extends State<VaccineBook> {
                       backgroundColor: Colors.white,
                       context: context,
                       builder: (context) => Column(children: [
-                            Image.asset(
-                              "assets/images/greentick.png",
+                            Container(
+                              width: MediaQuery.of(context).size.width * 0.3,
+                              height: MediaQuery.of(context).size.height * 0.3,
+                              child: Image.asset(
+                                "assets/images/greentick.png",
+                              ),
                             ),
                             ElevatedButton(
                                 onPressed: () {
@@ -71,7 +75,7 @@ class _VaccineBookState extends State<VaccineBook> {
                                           builder: (context) =>
                                               const HomeScreen()));
                                 },
-                                child: Text("OKAY")),
+                                child: const Text("OKAY")),
                           ]));
                 },
                 child: const Text(
