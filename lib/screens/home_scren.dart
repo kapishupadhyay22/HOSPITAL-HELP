@@ -52,7 +52,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 shape: BoxShape.circle,
               ),
-              child: Image.asset("assets/images/usericon.jpeg"),
+              child: Image.asset("assets/images/usericon.png"),
             ),
             const SizedBox(
               height: 10,
