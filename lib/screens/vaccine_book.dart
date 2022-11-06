@@ -48,7 +48,7 @@ class _VaccineBookState extends State<VaccineBook> {
             width: MediaQuery.of(context).size.width,
             margin: const EdgeInsets.fromLTRB(20, 20, 20, 0),
             child: reusableTextField(
-                "Mob of patient", Icons.phone_outlined, false, _patientName),
+                "Mob of patient", Icons.phone_outlined, false, _conatctNumber),
           ),
           Container(
             width: MediaQuery.of(context).size.width,
