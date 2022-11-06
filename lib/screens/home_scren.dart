@@ -18,7 +18,7 @@ class _HomeScreenState extends State<HomeScreen> {
         extendBodyBehindAppBar: true,
         appBar: AppBar(
           iconTheme: const IconThemeData(color: Colors.black),
-          backgroundColor: Colors.transparent,
+          backgroundColor: Colors.blue[200],
           elevation: 0,
           title: const Text(
             "HospitalApp",
