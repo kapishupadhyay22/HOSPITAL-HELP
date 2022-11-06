@@ -41,8 +41,12 @@ class _HomeScreenState extends State<HomeScreen> {
             Container(
                 width: MediaQuery.of(context).size.width,
                 margin: const EdgeInsets.fromLTRB(10, 20, 10, 0),
-                child: listButton("Doctor's appointment", context, 3,
-                    Icons.local_hospital_outlined)),
+                child: listButton(
+                  "Doctor's appointment",
+                  context,
+                  3,
+                  Icons.local_hospital,
+                )),
           ],
         ),
         drawer: Drawer(

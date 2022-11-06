@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		TKAoB3e8vgwriCndIs2Yxe7WU38=
+		T8swHQ61slSY+kM4iosWwyfgOq0=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		MtsKFOY1e0Jn/PORXImlMzvlP/0=
+		/fD0m4QCAzEE5axZ/1R3rtsg0FU=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		LNLTVOK8h+P03SVvRReDF9b1CzA=
+		P96ofpMSSb5cm/lvxHi/iUhT5Rw=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -76,9 +76,21 @@
 		<data>
 		vaukMBWEqhwlf2o7AJGYXlP2Pvc=
 		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/bed.png</key>
+		<data>
+		Qhy9K4uaSNMMbMpS2/Bu3njE+qE=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/doctor.png</key>
+		<data>
+		TEwH59d/w2yzbLyOdeUFHWIVjuM=
+		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/greentick.png</key>
 		<data>
 		uTkNG/nBhXa397VygRZIV9X8WpQ=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/hospital.png</key>
+		<data>
+		kZfEM3+FILlGPOpux0QkNg92d6s=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/logo1.png</key>
 		<data>
@@ -106,7 +118,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		oqqiO2tchjdPV8KehFPfC9KIsyw=
+		lYcU07azKND0JzqkCXe4JwiGcbw=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -134,7 +146,7 @@
 		</data>
 		<key>Frameworks/FirebaseAuth.framework/FirebaseAuth</key>
 		<data>
-		NUNskVAdnwvNsAuCm5P4SXxGXZQ=
+		ql9MN7dVPSt1S88+Mh5inMFiQTI=
 		</data>
 		<key>Frameworks/FirebaseAuth.framework/Info.plist</key>
 		<data>
@@ -146,7 +158,7 @@
 		</data>
 		<key>Frameworks/FirebaseCore.framework/FirebaseCore</key>
 		<data>
-		8AxAzYOzAly9fPB9QYjEypjeGRs=
+		5HejCYGfJmadNZ5ta891b84Kc2c=
 		</data>
 		<key>Frameworks/FirebaseCore.framework/Info.plist</key>
 		<data>
@@ -365,7 +377,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z7ljwVM6kEkdRtyeGwEfPNDfGHE2p3A1KlFyosAJ0tQ=
+			3X1mhg0OPXYULQ42lMIDj92O/Bm6uFlQDJjtUdV2D6g=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -379,14 +391,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tN1LtGR7iMQ1LR0fLHXn+K+1+Otb6jnqIzjSN9e5718=
+			SbSf9/s0P8uQIBPwJVmipIpha6PLUmmSjmNkHuEcnmg=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZhLND2vIY/zPYa3iEXObP7qm9oOa0eeutPaVUC2cFfg=
+			O8RdpV8CBtSpwOGbdxG+bgc9a/In0tjpue31w/mA/KU=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
@@ -417,11 +429,32 @@
 			0MhpJzLqb6o0FitN2oMWLngK2bZaInJiMYjGSSFsAs8=
 			</data>
 		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/bed.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cSWlOtSt6Y9sKY5mPTGcLW2z10okT703p74iw0Pm5Uk=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/doctor.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qiphpC8hJlTqA7p32+Ge57XtByLg+F3Nl5QvGP7ZXls=
+			</data>
+		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/greentick.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			zrBV4j5LZ2Nps2DCf9bsEMvs2lexCTpaW8WrZAAFXvo=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/hospital.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Q9FmOULMqTyG7AfErLfc2HRCL86Ljl4Zh4qukw/NBDo=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/logo1.png</key>
@@ -470,7 +503,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FFFP/fv8k//yI1lSydKTVVUzaROxQ3Drl3SKbJFil7Y=
+			3JoHUTcR0VtZLtZzKUvN6wuGoDffAIypWeTj2gMn/oI=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -519,7 +552,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			e1VRkvaq2x6WBBJeQgV6cNpCdJbB5q0MLPRria6tHhw=
+			ZwsDi6/nUt6o8ty9qO7o5bbmB6yYxEirtmx/WtE3qEA=
 			</data>
 		</dict>
 		<key>Frameworks/FirebaseAuth.framework/Info.plist</key>
@@ -540,7 +573,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SbTrwkUaMDfbvy0j6LWun0KawuLKT7iOjDjzm7Rl25c=
+			FU1e9QwP8M+IeCyXwZNi0w89hR5KohhOnjttFJxPtsE=
 			</data>
 		</dict>
 		<key>Frameworks/FirebaseCore.framework/Info.plist</key>
