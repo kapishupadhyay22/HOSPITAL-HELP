@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hospital_auth/screens/vaccine_book.dart';
 
 Image logoWidget(String imageName) {
   return Image.asset(
@@ -58,13 +59,18 @@ TextField reusableTextField(String text, IconData icon, bool isPasswordType,
   );
 }
 
-Container listButton(String buttonText, BuildContext context) {
+Container listButton(String buttonText, BuildContext context, int page) {
   return Container(
     width: MediaQuery.of(context).size.width,
     height: 160,
     child: ElevatedButton(
       child: Text(buttonText),
-      onPressed: () {},
+      onPressed: () {
+        if (page == 2) {
+          Navigator.push(context,
+              MaterialPageRoute(builder: ((context) => const VaccineBook())));
+        }
+      },
       style: ButtonStyle(
           //want to making elevation of the button as zero
           backgroundColor: MaterialStateProperty.resolveWith((states) {
