@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:hospital_auth/screens/bed_book.dart';
+import 'package:hospital_auth/screens/doctor_book.dart';
 import 'package:hospital_auth/screens/vaccine_book.dart';
 
 Image logoWidget(String imageName) {
@@ -59,16 +61,24 @@ TextField reusableTextField(String text, IconData icon, bool isPasswordType,
   );
 }
 
-Container listButton(String buttonText, BuildContext context, int page) {
+Container listButton(
+    String buttonText, BuildContext context, int page, IconData iconData) {
   return Container(
     width: MediaQuery.of(context).size.width,
     height: 160,
-    child: ElevatedButton(
-      child: Text(buttonText),
+    child: ElevatedButton.icon(
+      icon: Icon(iconData, size: 70),
+      label: Text(buttonText),
       onPressed: () {
-        if (page == 2) {
+        if (page == 1) {
+          Navigator.push(context,
+              MaterialPageRoute(builder: ((context) => const BedBook())));
+        } else if (page == 2) {
           Navigator.push(context,
               MaterialPageRoute(builder: ((context) => const VaccineBook())));
+        } else if (page == 3) {
+          Navigator.push(context,
+              MaterialPageRoute(builder: (context) => const DoctorBook()));
         }
       },
       style: ButtonStyle(
@@ -77,7 +87,7 @@ Container listButton(String buttonText, BuildContext context, int page) {
             if (states.contains(MaterialState.pressed)) {
               return Colors.black26;
             }
-            return Colors.transparent;
+            return Colors.blue[200];
           }),
           shape: MaterialStateProperty.all(
               RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)))),

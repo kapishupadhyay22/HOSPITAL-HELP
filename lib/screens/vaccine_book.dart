@@ -67,15 +67,37 @@ class _VaccineBookState extends State<VaccineBook> {
                                 "assets/images/greentick.png",
                               ),
                             ),
-                            ElevatedButton(
+                            const SizedBox(
+                              child: Text("DONE !!",
+                                  style: TextStyle(
+                                      fontSize: 20,
+                                      fontWeight: FontWeight.w100,
+                                      color: Colors.black)),
+                            ),
+                            Container(
+                              width: MediaQuery.of(context).size.width * 0.8,
+                              child: ElevatedButton(
                                 onPressed: () {
-                                  Navigator.push(
-                                      context,
-                                      MaterialPageRoute(
-                                          builder: (context) =>
-                                              const HomeScreen()));
+                                  Navigator.pop(context);
+                                  Navigator.pop(context);
                                 },
-                                child: const Text("OKAY")),
+                                child: const Text("OKAY"),
+                                style: ButtonStyle(
+                                    backgroundColor:
+                                        MaterialStateProperty.resolveWith(
+                                            (states) {
+                                      if (states
+                                          .contains(MaterialState.pressed)) {
+                                        return Colors.black12;
+                                      }
+                                      return Colors.blue[200];
+                                    }),
+                                    shape: MaterialStateProperty.all(
+                                        RoundedRectangleBorder(
+                                            borderRadius:
+                                                BorderRadius.circular(30)))),
+                              ),
+                            ),
                           ]));
                 },
                 child: const Text(

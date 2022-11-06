@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		bmtLkyt3gO8ziFoBeF3YPPJeDD8=
+		TKAoB3e8vgwriCndIs2Yxe7WU38=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		16Qz/Njo3+TRSKYQ/ooN5J/KMa0=
+		MtsKFOY1e0Jn/PORXImlMzvlP/0=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		2l+mqdcGThx2Uyx3mqTdfK4ba+w=
+		LNLTVOK8h+P03SVvRReDF9b1CzA=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -76,6 +76,10 @@
 		<data>
 		vaukMBWEqhwlf2o7AJGYXlP2Pvc=
 		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/greentick.png</key>
+		<data>
+		uTkNG/nBhXa397VygRZIV9X8WpQ=
+		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/logo1.png</key>
 		<data>
 		gCMR/Ipde5lcQ/A8IJUz8b51Wko=
@@ -88,6 +92,10 @@
 		<data>
 		lIWyTnuT9vY8V+flaPmMeWca9/U=
 		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/vacc.png</key>
+		<data>
+		Or/W9d8tkZNSW1ma1jzOhXrWm0Q=
+		</data>
 		<key>Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<data>
 		mcmNrC70e/OT89y/p5EgxkVsLrs=
@@ -98,7 +106,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		gw/fKra6Dj6V7NitzWgDte2xHpw=
+		oqqiO2tchjdPV8KehFPfC9KIsyw=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -126,7 +134,7 @@
 		</data>
 		<key>Frameworks/FirebaseAuth.framework/FirebaseAuth</key>
 		<data>
-		0TdH+oy2REhc/rxIin5VGFICHko=
+		NUNskVAdnwvNsAuCm5P4SXxGXZQ=
 		</data>
 		<key>Frameworks/FirebaseAuth.framework/Info.plist</key>
 		<data>
@@ -138,7 +146,7 @@
 		</data>
 		<key>Frameworks/FirebaseCore.framework/FirebaseCore</key>
 		<data>
-		NEqYFd2z8s/v8RoFBdxNzcc/rKo=
+		8AxAzYOzAly9fPB9QYjEypjeGRs=
 		</data>
 		<key>Frameworks/FirebaseCore.framework/Info.plist</key>
 		<data>
@@ -357,7 +365,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ukd/zZ1Qf7lJcTHqDwv0Zr6R4I3so0Z1ZrDcQku2CXI=
+			Z7ljwVM6kEkdRtyeGwEfPNDfGHE2p3A1KlFyosAJ0tQ=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -371,14 +379,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3bAmssWNfwiigAvnmnP1Y84nliJh4zVaOM55K3H+iok=
+			tN1LtGR7iMQ1LR0fLHXn+K+1+Otb6jnqIzjSN9e5718=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jmhh7WoKQkYMTToTW4034KCd95y2qkZaBG954of5QRo=
+			ZhLND2vIY/zPYa3iEXObP7qm9oOa0eeutPaVUC2cFfg=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
@@ -409,6 +417,13 @@
 			0MhpJzLqb6o0FitN2oMWLngK2bZaInJiMYjGSSFsAs8=
 			</data>
 		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/greentick.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zrBV4j5LZ2Nps2DCf9bsEMvs2lexCTpaW8WrZAAFXvo=
+			</data>
+		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/logo1.png</key>
 		<dict>
 			<key>hash2</key>
@@ -430,6 +445,13 @@
 			3vFejbh9dCrjmhXcYsVeh3+It/fAWKa7EI+V8t9HFgU=
 			</data>
 		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/vacc.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			F7SflkLovbq1OcMao7EnGfQ+f/4i6iTv2M0Yfwdv56k=
+			</data>
+		</dict>
 		<key>Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<dict>
 			<key>hash2</key>
@@ -448,7 +470,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PPddH5s0eHZ/kFyN4DvGbH/jkUZ5QkIj5Cv9bWHJL1w=
+			FFFP/fv8k//yI1lSydKTVVUzaROxQ3Drl3SKbJFil7Y=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -497,7 +519,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aoYkQ16rIpXFCxv7vkt7L9KoIs4ek9DSNe0szvJih6k=
+			e1VRkvaq2x6WBBJeQgV6cNpCdJbB5q0MLPRria6tHhw=
 			</data>
 		</dict>
 		<key>Frameworks/FirebaseAuth.framework/Info.plist</key>
@@ -518,7 +540,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IIOQ9zPz0lSudYTpnOh8TdmXJEPabXMOx6hsao6LDWs=
+			SbTrwkUaMDfbvy0j6LWun0KawuLKT7iOjDjzm7Rl25c=
 			</data>
 		</dict>
 		<key>Frameworks/FirebaseCore.framework/Info.plist</key>
