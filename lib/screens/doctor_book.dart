@@ -21,7 +21,7 @@ class _DoctorBookState extends State<DoctorBook> {
         iconTheme: const IconThemeData(color: Colors.black),
         //elevation: 0,
         title: const Text(
-          "Book your Doctor's Appointment",
+          "Book your Appointment",
           style: TextStyle(
               fontSize: 20, fontWeight: FontWeight.bold, color: Colors.black),
         ),
@@ -32,11 +32,13 @@ class _DoctorBookState extends State<DoctorBook> {
             height: 100,
           ),
           Container(
-              width: MediaQuery.of(context).size.width * 0.8,
-              height: 500,
-              child: Image.asset(
-                "assets/images/doctor.png", //change this icon accordingly
-              )),
+            margin: const EdgeInsets.fromLTRB(70, 0, 0, 0),
+            width: MediaQuery.of(context).size.width * 0.8,
+            height: 500,
+            child: Image.asset(
+              "assets/images/doc2.png",
+            ),
+          ),
           Container(
             width: MediaQuery.of(context).size.width,
             margin: const EdgeInsets.fromLTRB(20, 0, 20, 0),

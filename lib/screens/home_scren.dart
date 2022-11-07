@@ -21,7 +21,7 @@ class _HomeScreenState extends State<HomeScreen> {
           backgroundColor: Colors.blue[200],
           elevation: 0,
           title: const Text(
-            "HospitalApp",
+            "Hospital App",
             style: TextStyle(
                 fontSize: 24, fontWeight: FontWeight.bold, color: Colors.black),
           ),
@@ -74,6 +74,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     color: Colors.black)),
             Container(
                 width: MediaQuery.of(context).size.width,
+                margin: const EdgeInsets.fromLTRB(0, 0, 0, -10),
                 child: drawerButton(context)),
             Container(
                 width: MediaQuery.of(context).size.width,

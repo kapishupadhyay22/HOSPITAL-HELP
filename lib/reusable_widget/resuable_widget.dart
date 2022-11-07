@@ -16,8 +16,8 @@ Image logoWidget(String imageName) {
 Container drawerButton(BuildContext context) {
   return Container(
       width: MediaQuery.of(context).size.width,
-      height: 80,
-      margin: const EdgeInsets.fromLTRB(0, 30, 0, 0),
+      height: 70,
+      margin: const EdgeInsets.fromLTRB(0, 40, 0, 0),
       child: ElevatedButton(
           child: Text("MY BOOKINGS"),
           onPressed: () {},
