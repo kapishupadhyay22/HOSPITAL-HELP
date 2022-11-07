@@ -74,12 +74,12 @@ class _HomeScreenState extends State<HomeScreen> {
                     color: Colors.black)),
             Container(
                 width: MediaQuery.of(context).size.width,
-                margin: const EdgeInsets.fromLTRB(0, 0, 0, -10),
+                margin: const EdgeInsets.fromLTRB(0, 0, 0, 0),
                 child: drawerButton(context)),
             Container(
                 width: MediaQuery.of(context).size.width,
                 height: 80,
-                margin: const EdgeInsets.fromLTRB(0, 30, 0, 0),
+                margin: const EdgeInsets.fromLTRB(0, 10, 0, 0),
                 child: ElevatedButton(
                     child: Text("EMERGENCY !!"),
                     onPressed: () {},
