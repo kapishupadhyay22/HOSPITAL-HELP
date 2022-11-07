@@ -77,7 +77,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     width: 200,
                     height: 95,
                     margin: const EdgeInsets.fromLTRB(0, 0, 0, 10),
-                    child: drawerButton(context)),
+                    child: drawerButton("MY BOOKINGS", context, 1)),
                 Container(
                     width: 200,
                     height: 50,
