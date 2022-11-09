@@ -1,6 +1,9 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
+
+import 'first_page.dart';
 
 class MyProfile extends StatelessWidget {
   const MyProfile({Key? key}) : super(key: key);
@@ -57,54 +60,125 @@ class MyProfile extends StatelessWidget {
                 ),
                 child: ListView(
                   children: [
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: [
-                        Container(
-                          width: 250,
-                          height: 80,
-                          padding: EdgeInsets.only(left: 5),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.start,
-                            children: [
-                              Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  SizedBox(height: 20),
-                                  Text(
-                                    "Name:",
-                                    style: TextStyle(
-                                        fontWeight: FontWeight.w900,
-                                        fontSize: 18,
-                                        color: Colors.black),
-                                  ),
-                                  SizedBox(height: 15),
-                                  Text("Email:",
-                                      style: TextStyle(
-                                          fontWeight: FontWeight.w900,
-                                          fontSize: 18))
-                                ],
-                              ),
-                            ],
-                          ),
+                    SizedBox(height: 20),
+                    ListTile(
+                        title: TextFormField(
+                      decoration: const InputDecoration(
+                        icon: Icon(Icons.person),
+                        hintText: 'What do people call you?',
+                        labelText: 'Name *',
+                      ),
+                      onSaved: (String? value) {
+                        // This optional block of code can be used to run
+                        // code when the user saves the form.
+                      },
+                      validator: (String? value) {
+                        return (value != null && value.contains('@'))
+                            ? 'Do not use the @ char.'
+                            : null;
+                      },
+                    )),
+                    ListTile(
+                      title: TextFormField(
+                        decoration: const InputDecoration(
+                          icon: Icon(Icons.bloodtype_outlined),
+                          hintText: 'What is your blood group?',
+                          labelText: 'Blood Group : *',
                         ),
-                      ],
+                        onSaved: (String? value) {
+                          // This optional block of code can be used to run
+                          // code when the user saves the form.
+                        },
+                        validator: (String? value) {
+                          return (value != null && value.contains('@'))
+                              ? 'Do not use the @ char.'
+                              : null;
+                        },
+                      ),
                     ),
                     ListTile(
-                        title: Text("🩸 Blood Group :"),
-                        subtitle: Text("    q")),
+                      title: TextFormField(
+                        decoration: const InputDecoration(
+                          icon: Icon(Icons.transgender_outlined),
+                          hintText: 'What do people call you?',
+                          labelText: 'Gender *',
+                        ),
+                        onSaved: (String? value) {
+                          // This optional block of code can be used to run
+                          // code when the user saves the form.
+                        },
+                        validator: (String? value) {
+                          return (value != null && value.contains('@'))
+                              ? 'Do not use the @ char.'
+                              : null;
+                        },
+                      ),
+                    ),
                     ListTile(
-                        title: Text("🚻 Gender:"), subtitle: Text("    q")),
+                      title: TextFormField(
+                        decoration: const InputDecoration(
+                          icon: Icon(Icons.height),
+                          hintText: 'What do people call you?',
+                          labelText: 'Height *',
+                        ),
+                        onSaved: (String? value) {
+                          // This optional block of code can be used to run
+                          // code when the user saves the form.
+                        },
+                        validator: (String? value) {
+                          return (value != null && value.contains('@'))
+                              ? 'Do not use the @ char.'
+                              : null;
+                        },
+                      ),
+                    ),
                     ListTile(
-                        title: Text("𐄷 Weight:"), subtitle: Text("    q")),
-                    ListTile(title: Text("〖 Height:"), subtitle: Text("    q")),
-                    ListTile(title: Text("Booking Status:")),
-                    ListTile(
-                        title: Text(
-                      " LOG OUT 🛅",
-                      style:
-                          TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
-                    )),
+                      title: TextFormField(
+                        decoration: const InputDecoration(
+                          icon: Icon(Icons.line_weight_outlined),
+                          hintText: 'What do people call you?',
+                          labelText: 'Weight *',
+                        ),
+                        onSaved: (String? value) {
+                          // This optional block of code can be used to run
+                          // code when the user saves the form.
+                        },
+                        validator: (String? value) {
+                          return (value != null && value.contains('@'))
+                              ? 'Do not use the @ char.'
+                              : null;
+                        },
+                      ),
+                    ),
+                    SizedBox(height: 30),
+                    Container(
+                        width: 10,
+                        height: 50,
+                        margin: const EdgeInsets.fromLTRB(0, 10, 0, 0),
+                        child: ElevatedButton(
+                            child: Text("LOG OUT"),
+                            onPressed: () {
+                              FirebaseAuth.instance.signOut().then((value) {
+                                print("SIGNOUT");
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                        builder: (context) =>
+                                            const first_page()));
+                              });
+                            },
+                            style: ButtonStyle(
+                                backgroundColor:
+                                    MaterialStateProperty.resolveWith((states) {
+                                  if (states.contains(MaterialState.pressed)) {
+                                    return Colors.black12;
+                                  }
+                                  return Colors.red[300];
+                                }),
+                                shape: MaterialStateProperty.all(
+                                    RoundedRectangleBorder(
+                                        borderRadius:
+                                            BorderRadius.circular(30)))))),
                   ],
                 ),
               ),
@@ -119,7 +193,7 @@ class MyProfile extends StatelessWidget {
               radius: 50,
               backgroundColor: Colors.white,
               child: CircleAvatar(
-                backgroundImage: AssetImage("assets/Unknown.png"),
+                backgroundImage: AssetImage("assets/images/Unknown.png"),
                 radius: 45,
                 backgroundColor: Colors.white,
               ),

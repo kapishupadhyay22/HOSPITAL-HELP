@@ -30,18 +30,21 @@ class _HomeScreenState extends State<HomeScreen> {
         body: Column(
           children: [
             Container(
-                width: MediaQuery.of(context).size.width,
-                margin: const EdgeInsets.fromLTRB(10, 200, 10, 0),
+                width: 300,
+                height: 100,
+                margin: const EdgeInsets.fromLTRB(65, 300, 10, 0),
                 child: listButton(
                     "Available beds", context, 1, Icons.bed_outlined)),
             Container(
-                width: MediaQuery.of(context).size.width,
-                margin: const EdgeInsets.fromLTRB(10, 20, 10, 0),
+                width: 300,
+                height: 100,
+                margin: const EdgeInsets.fromLTRB(65, 20, 10, 0),
                 child: listButton("Available Vaccination slots", context, 2,
                     Icons.water_drop_outlined)),
             Container(
-                width: MediaQuery.of(context).size.width,
-                margin: const EdgeInsets.fromLTRB(10, 20, 10, 0),
+                width: 300,
+                height: 100,
+                margin: const EdgeInsets.fromLTRB(65, 20, 10, 0),
                 child: listButton(
                   "Doctor's appointment",
                   context,
