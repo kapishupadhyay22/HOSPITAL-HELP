@@ -55,7 +55,7 @@ class _SignInScreenState extends State<SignInScreen> {
                   height: 20,
                 ),
                 signInSignUpButton(context, true, () {
-                  FirebaseAuth.instance
+                  FirebaseAuth.instance 
                       .signInWithEmailAndPassword(
                           email: _emailTextController.text,
                           password: _passwordTextController.text)
