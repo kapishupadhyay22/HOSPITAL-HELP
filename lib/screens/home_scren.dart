@@ -2,6 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:hospital_auth/reusable_widget/resuable_widget.dart';
 import 'package:hospital_auth/screens/first_page.dart';
+import 'package:hospital_auth/screens/pfp.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -84,7 +85,12 @@ class _HomeScreenState extends State<HomeScreen> {
                     margin: const EdgeInsets.fromLTRB(0, 10, 0, 10),
                     child: ElevatedButton(
                         child: Text("EMERGENCY !!"),
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => const MyProfile()));
+                        },
                         style: ButtonStyle(
                             backgroundColor:
                                 MaterialStateProperty.resolveWith((states) {
