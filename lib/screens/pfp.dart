@@ -100,7 +100,7 @@ class MyProfile extends StatelessWidget {
                       title: TextFormField(
                         decoration: const InputDecoration(
                           icon: Icon(Icons.transgender_outlined),
-                          hintText: 'What do people call you?',
+                          hintText: 'What are you gae?',
                           labelText: 'Gender *',
                         ),
                         onSaved: (String? value) {
@@ -118,7 +118,7 @@ class MyProfile extends StatelessWidget {
                       title: TextFormField(
                         decoration: const InputDecoration(
                           icon: Icon(Icons.height),
-                          hintText: 'What do people call you?',
+                          hintText: 'Whats your height?',
                           labelText: 'Height *',
                         ),
                         onSaved: (String? value) {
@@ -136,7 +136,7 @@ class MyProfile extends StatelessWidget {
                       title: TextFormField(
                         decoration: const InputDecoration(
                           icon: Icon(Icons.line_weight_outlined),
-                          hintText: 'What do people call you?',
+                          hintText: 'Whats your weight?',
                           labelText: 'Weight *',
                         ),
                         onSaved: (String? value) {

@@ -19,7 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
         extendBodyBehindAppBar: true,
         appBar: AppBar(
           iconTheme: const IconThemeData(color: Colors.black),
-          backgroundColor: Colors.blue[200],
+          backgroundColor: Colors.orangeAccent[200],
           elevation: 0,
           title: const Text(
             "Hospital App",
@@ -54,7 +54,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ],
         ),
         drawer: Drawer(
-            backgroundColor: Colors.blue[100],
+            backgroundColor: Colors.orangeAccent,
             child: Column(
               children: [
                 Container(
