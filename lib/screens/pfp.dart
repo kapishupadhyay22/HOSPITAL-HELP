@@ -108,7 +108,7 @@ class MyProfile extends StatelessWidget {
                           // code when the user saves the form.
                         },
                         validator: (String? value) {
-                          return (value != null && value.contains('@'))
+                          return (value != null && value.contains('1234567890'))
                               ? 'Do not use the @ char.'
                               : null;
                         },
