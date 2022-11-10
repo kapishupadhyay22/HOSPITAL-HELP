@@ -39,7 +39,7 @@ class _first_pageState extends State<first_page> {
                       20, MediaQuery.of(context).size.height * 0.3, 20, 0),
                   child: Column(
                     children: [
-                      const Text("Sign In as a ?",
+                      const Text("Sign In as a -",
                           style: TextStyle(fontSize: 20, color: Colors.white)),
                       Container(
                           width: MediaQuery.of(context).size.width,
