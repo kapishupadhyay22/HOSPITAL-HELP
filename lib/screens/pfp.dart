@@ -100,7 +100,7 @@ class MyProfile extends StatelessWidget {
                       title: TextFormField(
                         decoration: const InputDecoration(
                           icon: Icon(Icons.transgender_outlined),
-                          hintText: 'What are you gae?',
+                          hintText: '?',
                           labelText: 'Gender *',
                         ),
                         onSaved: (String? value) {
