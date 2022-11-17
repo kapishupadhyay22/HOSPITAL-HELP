@@ -17,7 +17,7 @@ class _VaccineBookState extends State<VaccineBook> {
       backgroundColor: Colors.white,
       extendBodyBehindAppBar: true,
       appBar: AppBar(
-        backgroundColor: Colors.blue[200],
+        backgroundColor: Colors.orangeAccent[200],
         iconTheme: const IconThemeData(color: Colors.black),
         //elevation: 0,
         title: const Text(
@@ -55,6 +55,8 @@ class _VaccineBookState extends State<VaccineBook> {
             margin: const EdgeInsets.fromLTRB(20, 20, 20, 0),
             child: ElevatedButton(
                 onPressed: () {
+                  if (_patientName.toString().trim().toLowerCase() == "") {}
+
                   showModalBottomSheet(
                       backgroundColor: Colors.white,
                       context: context,
@@ -108,7 +110,7 @@ class _VaccineBookState extends State<VaccineBook> {
                     if (states.contains(MaterialState.pressed)) {
                       return Colors.black12;
                     }
-                    return Colors.blue[200];
+                    return Colors.red[400];
                   }),
                   shape: MaterialStateProperty.all(RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(30))),
