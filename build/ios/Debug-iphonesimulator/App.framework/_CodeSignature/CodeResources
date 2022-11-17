@@ -10,7 +10,7 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		9NHHcKoyq4iZEpcn5gVJte3dQU8=
+		16eTHTV2ZfrBg5Ab7tHu2mxTwGs=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>flutter_assets/NOTICES.Z</key>
 		<data>
-		K8QJPR3iFh8hpZoLoKq83mLYRkU=
+		3B0VYCmki091DQ9bUpPdJIZbAQ0=
 		</data>
 		<key>flutter_assets/assets/images/.DS_Store</key>
 		<data>
@@ -40,6 +40,18 @@
 		<data>
 		Qhy9K4uaSNMMbMpS2/Bu3njE+qE=
 		</data>
+		<key>flutter_assets/assets/images/carouseilimage2.jpeg</key>
+		<data>
+		FStS78DQtKtQ+uygSfK3kGsIDwI=
+		</data>
+		<key>flutter_assets/assets/images/carouselimage1%20.jpeg</key>
+		<data>
+		sB2y4AHvGJd6GYFpfd1yD2nvXSQ=
+		</data>
+		<key>flutter_assets/assets/images/carouselimage2.jpeg</key>
+		<data>
+		CgcT7A4wsSBVLmCOV3LZqd/a6eg=
+		</data>
 		<key>flutter_assets/assets/images/doc.png</key>
 		<data>
 		YzwgEm05P+Bz6D+6NvEUB+Y7wR0=
@@ -56,13 +68,25 @@
 		<data>
 		igUUet/G6/iLZSyiR5nHfLj/PK0=
 		</data>
+		<key>flutter_assets/assets/images/emergencybutton.png</key>
+		<data>
+		uTLLwaSGPfXBhVESrscdfQuehiQ=
+		</data>
 		<key>flutter_assets/assets/images/greentick.png</key>
 		<data>
 		uTkNG/nBhXa397VygRZIV9X8WpQ=
 		</data>
-		<key>flutter_assets/assets/images/hospital.png</key>
+		<key>flutter_assets/assets/images/imageC1.png</key>
 		<data>
-		kZfEM3+FILlGPOpux0QkNg92d6s=
+		ipZIHDFSbrCYXa0IJ+j7tE4o34c=
+		</data>
+		<key>flutter_assets/assets/images/imagec2.jpeg</key>
+		<data>
+		F879J/PUY8DvvfbwBKLPCqOZRKc=
+		</data>
+		<key>flutter_assets/assets/images/imagec3.png</key>
+		<data>
+		UmFdN+7Xrhk+TwtqpZHlh5dZmuc=
 		</data>
 		<key>flutter_assets/assets/images/logo1.png</key>
 		<data>
@@ -90,15 +114,23 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		4Ads1kWPHzI8eI/SNCdx7zU+i1Y=
+		hg1FOlw9fSjL3F/xFJuvSgZQDyM=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
 		P7bb/oR3EhwqCIH1M6LyTuBIWYU=
 		</data>
+		<key>flutter_assets/packages/fluttertoast/assets/toastify.css</key>
+		<data>
+		HVkEhoid+n6bwOYCwZg4DdmGBHY=
+		</data>
+		<key>flutter_assets/packages/fluttertoast/assets/toastify.js</key>
+		<data>
+		Q0Yr9JVfSBiRH22TkE46LT+KLE8=
+		</data>
 		<key>flutter_assets/shaders/ink_sparkle.frag</key>
 		<data>
-		rucTjX6M1y8Ue070B/t6FDm8LrM=
+		d+AQEkax0Hx6rxMClUItrW4B99M=
 		</data>
 		<key>flutter_assets/vm_snapshot_data</key>
 		<data>
@@ -111,7 +143,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BnIJZobV0xkw7UEAd+bwNtJPLjmxHKHPFIpH8zNKFsI=
+			C7SHBzkXZ5sUGsNdyaC4P3R+D4fZ9XhBFveOnvv80aY=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -125,7 +157,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FNOgVIFfEjaVejaOVQ2+YfTcF859KUo0fGcz6Mfateg=
+			Qc3tgEwZ+0Kb4we6CYHYHuyuW5czHc8eFcM2LDD2p88=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/images/Unknown.png</key>
@@ -156,6 +188,27 @@
 			cSWlOtSt6Y9sKY5mPTGcLW2z10okT703p74iw0Pm5Uk=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/images/carouseilimage2.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5KEILxRAHrfXSCJUJxjZy+cqqTG/X6aVbfbQ/fXJzK0=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/carouselimage1%20.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ECvkUWGB5IwMXj3gm7mc0gTc8ACHWSKbRAcVc+BIsUM=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/carouselimage2.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ap8RZpCX7/BDRYNJV7zcaH8WCAAm3ML2s2zJTYPZTVc=
+			</data>
+		</dict>
 		<key>flutter_assets/assets/images/doc.png</key>
 		<dict>
 			<key>hash2</key>
@@ -184,6 +237,13 @@
 			4aJk0ou/Wh4Qd6afFW241R8rACaFhJCTlnKg3Ghrsxw=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/images/emergencybutton.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XtPeaY/mA6nK/w2lmPchDRPwRnHnyD6PCBDCvQIrbrU=
+			</data>
+		</dict>
 		<key>flutter_assets/assets/images/greentick.png</key>
 		<dict>
 			<key>hash2</key>
@@ -191,11 +251,25 @@
 			zrBV4j5LZ2Nps2DCf9bsEMvs2lexCTpaW8WrZAAFXvo=
 			</data>
 		</dict>
-		<key>flutter_assets/assets/images/hospital.png</key>
+		<key>flutter_assets/assets/images/imageC1.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q9FmOULMqTyG7AfErLfc2HRCL86Ljl4Zh4qukw/NBDo=
+			9FR75zwil308nk77lMG1xyl1Xaa7uDL0UDhA2sIkPhc=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/imagec2.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EAKM9faqCemOWh0aYfmmH3cbkaFch5G6y+wFS9uoaOI=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/imagec3.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			W9V+F7gm5CR+sr72nblgl24hzJicrH0KV2efjNcLRJk=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/images/logo1.png</key>
@@ -244,7 +318,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			K5Iyp2Tw8MQnar/iYSBP7UMeuhWobqAOGLmlKXYlppc=
+			7xsq4brOZxvZFeDlF5sMq9NAfBQjkn7FcFk/0UqH8Yw=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -254,11 +328,25 @@
 			x6NX+tjyECiQtyzbbjyY8U2zoZ7GDbJtE+T+k/dzgI0=
 			</data>
 		</dict>
+		<key>flutter_assets/packages/fluttertoast/assets/toastify.css</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			abr0T+pbPv0zd7q8FU7xuDv4JjuRAgKox9bnRddRNJ8=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/fluttertoast/assets/toastify.js</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mfqR+tbc9El/g4k3uPxXEF7vEx1a29TL45Ns5tQkjsE=
+			</data>
+		</dict>
 		<key>flutter_assets/shaders/ink_sparkle.frag</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YM4AtP1LLO2+h8I6PZfWK6TQWxDwtOyBDLIh3SJDq6w=
+			NUcJXPjkL4OvW3zUNBOQ7UbYW4lvZ5Meqop86k4XCo8=
 			</data>
 		</dict>
 		<key>flutter_assets/vm_snapshot_data</key>
