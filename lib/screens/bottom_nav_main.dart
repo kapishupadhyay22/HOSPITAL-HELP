@@ -18,8 +18,8 @@ class _BottomNavState extends State<BottomNav> {
         body: screen[currentIndex],
         bottomNavigationBar: BottomNavigationBar(
             type: BottomNavigationBarType.fixed,
-            backgroundColor: Colors.white,
-            selectedItemColor: Colors.orangeAccent[200],
+            backgroundColor: Colors.orangeAccent[200],
+            selectedItemColor: Colors.white,
             currentIndex: currentIndex,
             onTap: (value) {
               setState(() {

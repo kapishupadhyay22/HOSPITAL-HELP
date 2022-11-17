@@ -14,7 +14,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   final images = [
     "assets/images/imageC1.png"
-        "assets/images/imagec3.jpeg"
+        "assets/images/imagec2.png"
         "assets/images/imagec3.png"
   ];
   Widget build(BuildContext context) {
