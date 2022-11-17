@@ -90,7 +90,7 @@ class MyProfile extends StatelessWidget {
                       title: TextFormField(
                         decoration: const InputDecoration(
                           icon: Icon(Icons.transgender_outlined),
-                          hintText: 'What are you gae?',
+                          hintText: '?',
                           labelText: 'Gender *',
                         ),
                         onSaved: (String? value) {
@@ -98,7 +98,7 @@ class MyProfile extends StatelessWidget {
                           // code when the user saves the form.
                         },
                         validator: (String? value) {
-                          return (value != null && value.contains('@'))
+                          return (value != null && value.contains('1234567890'))
                               ? 'Do not use the @ char.'
                               : null;
                         },
