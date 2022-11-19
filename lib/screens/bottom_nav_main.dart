@@ -11,14 +11,28 @@ class BottomNav extends StatefulWidget {
 
 class _BottomNavState extends State<BottomNav> {
   int currentIndex = 0;
-  final screen = [const HomeScreen(), const MyProfile(), const MyProfile()];
+  final screen = [const HomeScreen(), const MyProfile()];
 
   @override
   Widget build(BuildContext context) => Scaffold(
         body: screen[currentIndex],
+        floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+        floatingActionButton: Container(
+          height: 80,
+          width: 80,
+          child: FloatingActionButton.extended(
+            backgroundColor: Colors.red,
+            onPressed: () {},
+            label: const Text(
+              'SOS',
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
+            ),
+            //icon: const Icon(Icons.dangerous_sharp),
+          ),
+        ),
         bottomNavigationBar: BottomNavigationBar(
             type: BottomNavigationBarType.fixed,
-            backgroundColor: Colors.orangeAccent[200],
+            backgroundColor: Colors.deepPurple,
             selectedItemColor: Colors.white,
             currentIndex: currentIndex,
             onTap: (value) {
@@ -33,14 +47,6 @@ class _BottomNavState extends State<BottomNav> {
                   size: 40,
                 ),
                 label: 'Home',
-              ),
-              BottomNavigationBarItem(
-                icon: Icon(
-                  Icons.dangerous_outlined,
-                  color: Colors.red[900],
-                  size: 60,
-                ),
-                label: 'Emergency',
               ),
               const BottomNavigationBarItem(
                 icon: Icon(Icons.person, size: 40),
