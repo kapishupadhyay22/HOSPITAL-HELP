@@ -18,7 +18,7 @@ class _bedBookState extends State<BedBook> {
       backgroundColor: Colors.white,
       extendBodyBehindAppBar: true,
       appBar: AppBar(
-        backgroundColor: Colors.blue[200],
+        backgroundColor: Colors.orangeAccent[200],
         iconTheme: const IconThemeData(color: Colors.black),
         //elevation: 0,
         title: const Text(
@@ -109,7 +109,7 @@ class _bedBookState extends State<BedBook> {
                     if (states.contains(MaterialState.pressed)) {
                       return Colors.black12;
                     }
-                    return Colors.blue[200];
+                    return Colors.red[400];
                   }),
                   shape: MaterialStateProperty.all(RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(30))),

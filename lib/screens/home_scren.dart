@@ -12,128 +12,55 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  @override
+  final images = [
+    "assets/images/imageC1.png"
+        "assets/images/imagec2.png"
+        "assets/images/imagec3.png"
+  ];
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.white,
-        extendBodyBehindAppBar: true,
-        appBar: AppBar(
-          iconTheme: const IconThemeData(color: Colors.black),
-          backgroundColor: Colors.orangeAccent[200],
-          elevation: 0,
-          title: const Text(
-            "Hospital App",
-            style: TextStyle(
-                fontSize: 24, fontWeight: FontWeight.bold, color: Colors.black),
+      backgroundColor: Colors.white,
+      extendBodyBehindAppBar: true,
+      body: Column(
+        children: [
+          const SizedBox(
+            height: 100,
           ),
-        ),
-        body: Column(
-          children: [
-            Container(
-                width: 300,
-                height: 100,
-                margin: const EdgeInsets.fromLTRB(65, 300, 10, 0),
-                child: listButton(
-                    "Available beds", context, 1, Icons.bed_outlined)),
-            Container(
-                width: 300,
-                height: 100,
-                margin: const EdgeInsets.fromLTRB(65, 20, 10, 0),
-                child: listButton("Available Vaccination slots", context, 2,
-                    Icons.water_drop_outlined)),
-            Container(
-                width: 300,
-                height: 100,
-                margin: const EdgeInsets.fromLTRB(65, 20, 10, 0),
-                child: listButton(
-                  "Doctor's appointment",
-                  context,
-                  3,
-                  Icons.local_hospital,
-                )),
-          ],
-        ),
-        drawer: Drawer(
-            backgroundColor: Colors.orangeAccent,
-            child: Column(
-              children: [
-                Container(
-                  height: 150,
-                  width: 150,
-                  margin: const EdgeInsets.fromLTRB(50, 50, 50, 0),
-                  decoration: BoxDecoration(
-                    border: Border.all(
-                      color: Colors.red,
-                    ),
-                    shape: BoxShape.circle,
-                  ),
-                  child: Image.asset("assets/images/usericon.png"),
-                ),
-                const SizedBox(
-                  height: 10,
-                ),
-                Text("YOUR NAME",
-                    style: TextStyle(
-                        fontSize: 20,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.black)),
-                Container(
-                    width: 200,
-                    height: 95,
-                    margin: const EdgeInsets.fromLTRB(0, 0, 0, 10),
-                    child: drawerButton("MY BOOKINGS", context, 1)),
-                Container(
-                    width: 200,
-                    height: 50,
-                    margin: const EdgeInsets.fromLTRB(0, 10, 0, 10),
-                    child: ElevatedButton(
-                        child: Text("EMERGENCY !!"),
-                        onPressed: () {
-                          Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => const MyProfile()));
-                        },
-                        style: ButtonStyle(
-                            backgroundColor:
-                                MaterialStateProperty.resolveWith((states) {
-                              if (states.contains(MaterialState.pressed)) {
-                                return Colors.black12;
-                              }
-                              return Colors.red[400];
-                            }),
-                            shape: MaterialStateProperty.all(
-                                RoundedRectangleBorder(
-                                    borderRadius:
-                                        BorderRadius.circular(40)))))),
-                Container(
-                    width: 200,
-                    height: 50,
-                    margin: const EdgeInsets.fromLTRB(0, 10, 0, 0),
-                    child: ElevatedButton(
-                        child: Text("LOG OUT"),
-                        onPressed: () {
-                          FirebaseAuth.instance.signOut().then((value) {
-                            print("SIGNOUT");
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (context) => const first_page()));
-                          });
-                        },
-                        style: ButtonStyle(
-                            backgroundColor:
-                                MaterialStateProperty.resolveWith((states) {
-                              if (states.contains(MaterialState.pressed)) {
-                                return Colors.black12;
-                              }
-                              return Colors.blue[200];
-                            }),
-                            shape: MaterialStateProperty.all(
-                                RoundedRectangleBorder(
-                                    borderRadius:
-                                        BorderRadius.circular(30)))))),
-              ],
-            )));
+          Container(
+              width: MediaQuery.of(context).size.width * 0.7,
+              height: 300,
+              margin: const EdgeInsets.fromLTRB(50, 0, 0, 0),
+              child: PageView.builder(
+                itemCount: 3,
+                pageSnapping: true,
+                itemBuilder: (context, pagePosition) {
+                  return Image.network(images[pagePosition]);
+                },
+              )),
+          Container(
+              width: 300,
+              height: 100,
+              margin: const EdgeInsets.fromLTRB(65, 20, 10, 0),
+              child:
+                  listButton("Available beds", context, 1, Icons.bed_outlined)),
+          Container(
+              width: 300,
+              height: 100,
+              margin: const EdgeInsets.fromLTRB(65, 20, 10, 0),
+              child: listButton("Available Vaccination slots", context, 2,
+                  Icons.water_drop_outlined)),
+          Container(
+              width: 300,
+              height: 100,
+              margin: const EdgeInsets.fromLTRB(65, 20, 10, 0),
+              child: listButton(
+                "Doctor's appointment",
+                context,
+                3,
+                Icons.local_hospital,
+              )),
+        ],
+      ),
+    );
   }
 }

@@ -1,7 +1,5 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 
 import 'first_page.dart';
 
@@ -12,13 +10,13 @@ class MyProfile extends StatelessWidget {
   Widget listTile({icon, title}) {
     return Column(
       children: [
-        Divider(
+        const Divider(
           height: 0.5,
         ),
         ListTile(
           leading: Icon(icon),
           title: Text(title),
-          trailing: Icon(Icons.arrow_forward_ios),
+          trailing: const Icon(Icons.arrow_forward_ios),
         ),
       ],
     );
@@ -27,30 +25,22 @@ class MyProfile extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.orangeAccent,
-      appBar: AppBar(
-        backgroundColor: Colors.orangeAccent,
-        elevation: 0.0,
-        title: Text(
-          "Your Profile",
-          style: TextStyle(fontSize: 25, color: Colors.black),
-        ),
-      ),
       body: Stack(
         children: [
           Column(
             children: [
               Container(
-                height: 100,
+                height: 200,
                 color: Colors.orangeAccent,
               ),
               Container(
                 height: 561,
                 width: double.infinity,
-                padding: EdgeInsets.symmetric(
+                padding: const EdgeInsets.symmetric(
                   horizontal: 15,
                   vertical: 15,
                 ),
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(30),
@@ -60,7 +50,7 @@ class MyProfile extends StatelessWidget {
                 ),
                 child: ListView(
                   children: [
-                    SizedBox(height: 20),
+                    const SizedBox(height: 20),
                     ListTile(
                         title: TextFormField(
                       decoration: const InputDecoration(
@@ -150,7 +140,7 @@ class MyProfile extends StatelessWidget {
                         },
                       ),
                     ),
-                    SizedBox(height: 30),
+                    const SizedBox(height: 30),
                     Container(
                         width: 10,
                         height: 50,
@@ -184,17 +174,17 @@ class MyProfile extends StatelessWidget {
               ),
             ],
           ),
-          Padding(
-            padding: const EdgeInsets.only(
-              top: 30,
+          const Padding(
+            padding: EdgeInsets.only(
+              top: 150,
               left: 25,
             ),
             child: CircleAvatar(
-              radius: 50,
+              radius: 70,
               backgroundColor: Colors.white,
               child: CircleAvatar(
                 backgroundImage: AssetImage("assets/images/Unknown.png"),
-                radius: 45,
+                radius: 60,
                 backgroundColor: Colors.white,
               ),
             ),

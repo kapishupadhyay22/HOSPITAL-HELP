@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:hospital_auth/screens/bottom_nav_main.dart';
 import '../reusable_widget/resuable_widget.dart';
 import '../utils/color_utils.dart';
 import 'home_scren.dart';
@@ -69,7 +70,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => const HomeScreen()));
+                            builder: (context) => const BottomNav()));
                   }).onError((error, stackTrace) {
                     print("Error ${error.toString()}");
                   });
