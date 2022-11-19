@@ -6,7 +6,6 @@ import 'package:hospital_auth/screens/signup_screen.dart';
 
 import '../reusable_widget/resuable_widget.dart';
 import '../utils/color_utils.dart';
-import 'home_scren.dart';
 
 class SignInScreen extends StatefulWidget {
   const SignInScreen({Key? key}) : super(key: key);

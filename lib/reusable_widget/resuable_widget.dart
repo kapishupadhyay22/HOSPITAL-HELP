@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hospital_auth/screens/bed_book.dart';
-import 'package:hospital_auth/screens/bookings.dart';
+
 import 'package:hospital_auth/screens/doctor_book.dart';
 import 'package:hospital_auth/screens/vaccine_book.dart';
 
@@ -12,28 +12,6 @@ Image logoWidget(String imageName) {
     height: 240,
     color: Colors.white60,
   );
-}
-
-Container drawerButton(String text, BuildContext context, int page) {
-  return Container(
-      width: MediaQuery.of(context).size.width,
-      height: 70,
-      margin: const EdgeInsets.fromLTRB(0, 40, 0, 0),
-      child: ElevatedButton(
-          child: Text(text),
-          onPressed: () {
-            Navigator.push(context,
-                MaterialPageRoute(builder: (context) => const bookings()));
-          },
-          style: ButtonStyle(
-              backgroundColor: MaterialStateProperty.resolveWith((states) {
-                if (states.contains(MaterialState.pressed)) {
-                  return Colors.black12;
-                }
-                return Colors.transparent;
-              }),
-              shape: MaterialStateProperty.all(RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(30))))));
 }
 
 TextField reusableTextField(String text, IconData icon, bool isPasswordType,
