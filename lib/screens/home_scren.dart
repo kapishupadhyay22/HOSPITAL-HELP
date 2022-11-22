@@ -44,7 +44,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 items: imgList
                     .map((item) => Container(
                           child: Center(
-                            child: Image.network(
+                            child: Image.asset(
                               item,
                               fit: BoxFit.cover,
                               width: MediaQuery.of(context).size.width * 0.8,
