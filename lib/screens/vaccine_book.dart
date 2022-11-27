@@ -112,7 +112,10 @@ class _VaccineBookState extends State<VaccineBook> {
                   },
                   child: const Text(
                     "CONFIRM",
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                    style: TextStyle(
+                        fontSize: 20,
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold),
                   ),
                   style: ButtonStyle(
                     backgroundColor:
@@ -120,7 +123,7 @@ class _VaccineBookState extends State<VaccineBook> {
                       if (states.contains(MaterialState.pressed)) {
                         return Colors.black12;
                       }
-                      return Colors.red[400];
+                      return Colors.green[400];
                     }),
                     shape: MaterialStateProperty.all(RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(30))),
