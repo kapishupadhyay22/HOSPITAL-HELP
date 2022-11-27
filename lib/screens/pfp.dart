@@ -28,12 +28,12 @@ class MyProfile extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.deepPurple,
         elevation: 0,
-        leading: BackButton(
-          onPressed: () {
-            Navigator.push(context,
-                MaterialPageRoute(builder: (context) => const BottomNav()));
-          },
-        ),
+        // leading: BackButton(
+        //   onPressed: () {
+        //     Navigator.pop(context,
+        //         MaterialPageRoute(builder: (context) => const BottomNav()));
+        //   },
+        // ),
       ),
       body: Container(
         decoration: BoxDecoration(

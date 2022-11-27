@@ -44,13 +44,16 @@ class _HomeScreenState extends State<HomeScreen> {
                 items: imgList
                     .map((item) => Container(
                           child: Center(
-                            child: Image.network(
-                              item,
-                              fit: BoxFit.cover,
-                              width: MediaQuery.of(context).size.width * 0.8,
-                              height: 300,
-                            ),
-                          ),
+                              child: Image(
+                            image: AssetImage(item),
+                          )
+                              // Image.network(
+                              //   item,
+                              //   fit: BoxFit.cover,
+                              //   width: MediaQuery.of(context).size.width * 0.8,
+                              //   height: 500,
+                              // ),
+                              ),
                         ))
                     .toList(),
                 options: CarouselOptions(

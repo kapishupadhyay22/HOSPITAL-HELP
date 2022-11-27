@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:hospital_auth/screens/bed_book.dart';
-
 import 'package:hospital_auth/screens/doctor_book.dart';
 import 'package:hospital_auth/screens/vaccine_book.dart';
 
