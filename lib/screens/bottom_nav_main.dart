@@ -18,6 +18,7 @@ class _BottomNavState extends State<BottomNav> {
         body: screen[currentIndex],
         floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
         floatingActionButton: Container(
+          margin: EdgeInsets.fromLTRB(0, 90, 0, 0),
           height: 80,
           width: 80,
           child: FloatingActionButton.extended(

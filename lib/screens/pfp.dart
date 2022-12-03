@@ -52,10 +52,10 @@ class MyProfile extends StatelessWidget {
             Column(
               children: [
                 Container(
-                  height: 150,
+                  height: 190,
                 ),
                 Container(
-                  height: 600,
+                  height: 560,
                   width: double.infinity,
                   padding: const EdgeInsets.symmetric(
                     horizontal: 15,

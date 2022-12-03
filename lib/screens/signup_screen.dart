@@ -60,6 +60,21 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 const SizedBox(
                   height: 20,
                 ),
+                reusableTextField("Enter Height", Icons.height, true,
+                    _passwordTextController),
+                const SizedBox(
+                  height: 20,
+                ),
+                reusableTextField("Enter Weight", Icons.line_weight, true,
+                    _passwordTextController),
+                const SizedBox(
+                  height: 20,
+                ),
+                reusableTextField("Enter gneder", Icons.lock_outlined, true,
+                    _passwordTextController),
+                const SizedBox(
+                  height: 20,
+                ),
                 signInSignUpButton(context, false, () {
                   FirebaseAuth.instance
                       .createUserWithEmailAndPassword(

@@ -22,7 +22,7 @@ class _VaccineBookState extends State<VaccineBook> {
         iconTheme: const IconThemeData(color: Colors.white),
         elevation: 0,
         title: const Text(
-          "Book your vaccination slot",
+          "Book a vaccination slot",
           style: TextStyle(
               fontSize: 20, fontWeight: FontWeight.bold, color: Colors.white),
         ),
@@ -54,8 +54,8 @@ class _VaccineBookState extends State<VaccineBook> {
             Container(
               width: MediaQuery.of(context).size.width,
               margin: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-              child: reusableTextField("Mob of patient", Icons.phone_outlined,
-                  false, _conatctNumber),
+              child: reusableTextField("Mob no of patient",
+                  Icons.phone_outlined, false, _conatctNumber),
             ),
             Container(
               width: MediaQuery.of(context).size.width,
