@@ -13,9 +13,12 @@ class SignUpScreen extends StatefulWidget {
 }
 
 class _SignUpScreenState extends State<SignUpScreen> {
-  TextEditingController _passwordTextController = TextEditingController();
-  TextEditingController _emailTextController = TextEditingController();
-  TextEditingController _userNameTextController = TextEditingController();
+  final TextEditingController _passwordTextController = TextEditingController();
+  final TextEditingController _emailTextController = TextEditingController();
+  final TextEditingController _userNameTextController = TextEditingController();
+  final TextEditingController _height = TextEditingController();
+  final TextEditingController _weight = TextEditingController();
+  final TextEditingController _gender = TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -60,18 +63,17 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 const SizedBox(
                   height: 20,
                 ),
-                reusableTextField("Enter Height", Icons.height, true,
-                    _passwordTextController),
+                reusableTextField("Enter Height", Icons.height, true, _height),
                 const SizedBox(
                   height: 20,
                 ),
-                reusableTextField("Enter Weight", Icons.line_weight, true,
-                    _passwordTextController),
+                reusableTextField(
+                    "Enter Weight", Icons.line_weight, true, _weight),
                 const SizedBox(
                   height: 20,
                 ),
-                reusableTextField("Enter gneder", Icons.lock_outlined, true,
-                    _passwordTextController),
+                reusableTextField(
+                    "Enter gender", Icons.lock_outlined, true, _gender),
                 const SizedBox(
                   height: 20,
                 ),
