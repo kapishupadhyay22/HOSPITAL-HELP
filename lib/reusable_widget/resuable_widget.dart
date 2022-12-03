@@ -50,14 +50,21 @@ Container listButton(
     width: MediaQuery.of(context).size.width,
     height: 160,
     child: ElevatedButton.icon(
-      icon: Icon(
-        iconData,
-        size: 70,
-        color: Colors.black,
+      icon: Row(
+        children: [
+          const Align(
+            alignment: Alignment.centerLeft,
+          ),
+          Icon(
+            iconData,
+            size: 70,
+            color: Colors.black,
+          ),
+        ],
       ),
       label: Text(
         buttonText,
-        style: const TextStyle(color: Colors.black),
+        style: const TextStyle(color: Colors.black, fontSize: 15),
       ),
       onPressed: () {
         if (page == 1) {
