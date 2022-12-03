@@ -26,18 +26,17 @@ class _HomeScreenState extends State<HomeScreen> {
           automaticallyImplyLeading: false,
           title: const Text(
             "MEDIZINE",
-            style: TextStyle(
-                fontFamily: 'Silkscreen', fontSize: 30, color: Colors.white),
+            style: TextStyle(fontSize: 30, color: Colors.white),
           ),
           actions: [
             Padding(
-              padding: const EdgeInsets.only(right: 25, top: 10),
+              padding: const EdgeInsets.only(right: 10),
               child: GestureDetector(
                 onTap: () {},
                 child: const Icon(
                   Icons.chat,
                   color: Colors.blue,
-                  size: 40,
+                  size: 30,
                 ),
               ),
             )
