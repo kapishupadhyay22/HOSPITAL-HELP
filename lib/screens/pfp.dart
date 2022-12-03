@@ -34,6 +34,7 @@ class MyProfile extends StatelessWidget {
         ),
         elevation: 0,
       ),
+      resizeToAvoidBottomInset: false,
       body: Container(
         decoration: BoxDecoration(
             gradient: LinearGradient(colors: [
