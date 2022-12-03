@@ -16,7 +16,6 @@ class _BottomNavState extends State<BottomNav> {
   @override
   Widget build(BuildContext context) => Scaffold(
         body: screen[currentIndex],
-        resizeToAvoidBottomInset: false,
         floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
         floatingActionButton: Container(
           margin: const EdgeInsets.fromLTRB(0, 90, 0, 0),
