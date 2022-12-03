@@ -57,7 +57,7 @@ class _HomeScreenState extends State<HomeScreen> {
             child: Column(
               children: [
                 const SizedBox(
-                  height: 150,
+                  height: 100,
                 ),
                 Container(
                   width: MediaQuery.of(context).size.width * 1,
