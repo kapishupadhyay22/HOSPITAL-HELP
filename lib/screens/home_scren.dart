@@ -24,10 +24,10 @@ class _HomeScreenState extends State<HomeScreen> {
           backgroundColor: Colors.transparent,
           elevation: 0,
           automaticallyImplyLeading: false,
-          title: Text(
+          title: const Text(
             "MEDIZINE",
             style: TextStyle(
-                fontFamily: 'Silkscreen', fontSize: 40, color: Colors.white),
+                fontFamily: 'Silkscreen', fontSize: 30, color: Colors.white),
           ),
           actions: [
             Padding(

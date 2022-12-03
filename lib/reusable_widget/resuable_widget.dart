@@ -28,11 +28,9 @@ TextField reusableTextField(String text, IconData icon, bool isPasswordType,
         icon,
         color: Colors.black,
       ),
-      labelText: text,
-      labelStyle: TextStyle(
-          color: Colors.black87, fontSize: 20, fontWeight: FontWeight.bold),
+      hintText: text,
       filled: true,
-      floatingLabelBehavior: FloatingLabelBehavior.auto,
+      floatingLabelBehavior: FloatingLabelBehavior.never,
       fillColor: Colors.white.withOpacity(0.7),
       border: OutlineInputBorder(
         borderRadius: BorderRadius.circular(30.0),
