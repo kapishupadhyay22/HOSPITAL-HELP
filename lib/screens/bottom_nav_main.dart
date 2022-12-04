@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hospital_auth/screens/home_scren.dart';
-import 'package:hospital_auth/screens/pfp.dart';
+import 'package:hospital_auth/screens/pfp_disp.dart';
+import 'package:hospital_auth/screens/pfp_edit.dart';
 
 class BottomNav extends StatefulWidget {
   const BottomNav({super.key});
@@ -11,7 +12,7 @@ class BottomNav extends StatefulWidget {
 
 class _BottomNavState extends State<BottomNav> {
   int currentIndex = 0;
-  final screen = [const HomeScreen(), const MyProfile()];
+  final screen = [const HomeScreen(), const MyProfileInfo()];
 
   @override
   Widget build(BuildContext context) => Scaffold(
@@ -19,15 +20,15 @@ class _BottomNavState extends State<BottomNav> {
         resizeToAvoidBottomInset: false,
         floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
         floatingActionButton: Container(
-          margin: const EdgeInsets.fromLTRB(0, 90, 0, 0),
-          height: 80,
-          width: 80,
+          //margin: const EdgeInsets.fromLTRB(0, 90, 0, 0),
+          height: 70,
+          width: 70,
           child: FloatingActionButton.extended(
             backgroundColor: Colors.red,
             onPressed: () {},
             label: const Text(
               'SOS',
-              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
             ),
             //icon: const Icon(Icons.dangerous_sharp),
           ),
