@@ -159,7 +159,7 @@ class MyProfileInfo extends StatelessWidget {
                   height: MediaQuery.of(context).size.height * 0.05,
                 ),
                 Container(
-                  height: MediaQuery.of(context).size.height * 0.25,
+                  height: MediaQuery.of(context).size.height * 0.31,
                   width: MediaQuery.of(context).size.width * 0.9,
                   padding: const EdgeInsets.symmetric(
                     horizontal: 15,
@@ -184,7 +184,7 @@ class MyProfileInfo extends StatelessWidget {
                         const Divider(
                           color: Colors.black,
                           thickness: 0.5,
-                          height: 10,
+                          height: 30,
                         ),
                         Container(
                           height: MediaQuery.of(context).size.height * 0.05,

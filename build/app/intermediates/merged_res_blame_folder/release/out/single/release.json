@@ -76,10 +76,6 @@
         "source": "/Users/kapishupadhyay/.gradle/caches/transforms-3/d3f94a72f8937cfd842617526df22a1b/transformed/core-1.6.0/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
     },
     {
-        "merged": "/Users/kapishupadhyay/Documents/GitHub/Hospital_App/build/app/intermediates/merged_res/release/drawable_launch_background.xml.flat",
-        "source": "/Users/kapishupadhyay/Documents/GitHub/Hospital_App/android/app/src/main/res/drawable/launch_background.xml"
-    },
-    {
         "merged": "/Users/kapishupadhyay/Documents/GitHub/Hospital_App/build/app/intermediates/merged_res/release/layout_notification_template_part_chronometer.xml.flat",
         "source": "/Users/kapishupadhyay/.gradle/caches/transforms-3/d3f94a72f8937cfd842617526df22a1b/transformed/core-1.6.0/res/layout/notification_template_part_chronometer.xml"
     },
@@ -106,14 +102,6 @@
     {
         "merged": "/Users/kapishupadhyay/Documents/GitHub/Hospital_App/build/app/intermediates/merged_res/release/drawable-hdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
         "source": "/Users/kapishupadhyay/.gradle/caches/transforms-3/b9dfe57a46264d12300acf7d885a7791/transformed/jetified-play-services-base-18.0.1/res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
-    },
-    {
-        "merged": "/Users/kapishupadhyay/Documents/GitHub/Hospital_App/build/app/intermediates/merged_res/release/layout_notification_action.xml.flat",
-        "source": "/Users/kapishupadhyay/.gradle/caches/transforms-3/d3f94a72f8937cfd842617526df22a1b/transformed/core-1.6.0/res/layout/notification_action.xml"
-    },
-    {
-        "merged": "/Users/kapishupadhyay/Documents/GitHub/Hospital_App/build/app/intermediates/merged_res/release/layout_notification_action_tombstone.xml.flat",
-        "source": "/Users/kapishupadhyay/.gradle/caches/transforms-3/d3f94a72f8937cfd842617526df22a1b/transformed/core-1.6.0/res/layout/notification_action_tombstone.xml"
     },
     {
         "merged": "/Users/kapishupadhyay/Documents/GitHub/Hospital_App/build/app/intermediates/merged_res/release/layout_browser_actions_context_menu_row.xml.flat",
@@ -260,10 +248,6 @@
         "source": "/Users/kapishupadhyay/.gradle/caches/transforms-3/b9dfe57a46264d12300acf7d885a7791/transformed/jetified-play-services-base-18.0.1/res/drawable-mdpi-v4/googleg_standard_color_18.png"
     },
     {
-        "merged": "/Users/kapishupadhyay/Documents/GitHub/Hospital_App/build/app/intermediates/merged_res/release/layout_notification_template_icon_group.xml.flat",
-        "source": "/Users/kapishupadhyay/.gradle/caches/transforms-3/d3f94a72f8937cfd842617526df22a1b/transformed/core-1.6.0/res/layout/notification_template_icon_group.xml"
-    },
-    {
         "merged": "/Users/kapishupadhyay/Documents/GitHub/Hospital_App/build/app/intermediates/merged_res/release/mipmap-hdpi_ic_launcher.png.flat",
         "source": "/Users/kapishupadhyay/Documents/GitHub/Hospital_App/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
@@ -294,10 +278,6 @@
     {
         "merged": "/Users/kapishupadhyay/Documents/GitHub/Hospital_App/build/app/intermediates/merged_res/release/drawable-hdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
         "source": "/Users/kapishupadhyay/.gradle/caches/transforms-3/b9dfe57a46264d12300acf7d885a7791/transformed/jetified-play-services-base-18.0.1/res/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
-    },
-    {
-        "merged": "/Users/kapishupadhyay/Documents/GitHub/Hospital_App/build/app/intermediates/merged_res/release/layout-v16_notification_template_custom_big.xml.flat",
-        "source": "/Users/kapishupadhyay/.gradle/caches/transforms-3/d3f94a72f8937cfd842617526df22a1b/transformed/core-1.6.0/res/layout-v16/notification_template_custom_big.xml"
     },
     {
         "merged": "/Users/kapishupadhyay/Documents/GitHub/Hospital_App/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",

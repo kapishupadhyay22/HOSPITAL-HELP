@@ -1,8 +1,8 @@
 <variant
     name="release"
     package="com.example.hospital_auth"
-    minSdkVersion="16"
-    targetSdkVersion="31"
+    minSdkVersion="21"
+    targetSdkVersion="30"
     shrinking="true"
     mergedManifest="/Users/kapishupadhyay/Documents/GitHub/Hospital_App/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
     manifestMergeReport="/Users/kapishupadhyay/Documents/GitHub/Hospital_App/build/app/outputs/logs/manifest-merger-release-report.txt"
