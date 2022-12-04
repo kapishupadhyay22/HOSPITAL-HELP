@@ -16,7 +16,7 @@ class MyProfileInfo extends StatelessWidget {
         backgroundColor: Colors.transparent,
         title: const Text(
           "MY PROFILE",
-          style: TextStyle(color: Colors.white, fontSize: 25),
+          style: TextStyle(color: Colors.white, fontSize: 20),
         ),
         elevation: 0,
         actions: [
@@ -93,7 +93,9 @@ class MyProfileInfo extends StatelessWidget {
                                   children: [
                                     Text(
                                       "Blood",
-                                      style: TextStyle(fontSize: 25),
+                                      style: TextStyle(
+                                        fontSize: 20,
+                                      ),
                                     ),
                                     SizedBox(
                                       height: 10,
@@ -114,7 +116,9 @@ class MyProfileInfo extends StatelessWidget {
                                   children: [
                                     Text(
                                       "Height",
-                                      style: TextStyle(fontSize: 25),
+                                      style: TextStyle(
+                                        fontSize: 20,
+                                      ),
                                     ),
                                     SizedBox(
                                       height: 10,
@@ -135,7 +139,9 @@ class MyProfileInfo extends StatelessWidget {
                                   children: [
                                     Text(
                                       "Weight",
-                                      style: TextStyle(fontSize: 25),
+                                      style: TextStyle(
+                                        fontSize: 20,
+                                      ),
                                     ),
                                     SizedBox(
                                       height: 10,
@@ -191,7 +197,7 @@ class MyProfileInfo extends StatelessWidget {
                           width: MediaQuery.of(context).size.width * 0.7,
                           child: ElevatedButton(
                             child: Text(
-                              "EDIT PROFILE",
+                              "Edit Profile",
                               style: TextStyle(color: Colors.black),
                             ),
                             onPressed: () {

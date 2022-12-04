@@ -29,7 +29,7 @@ class MyProfile extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         title: const Text(
-          "PROFILE",
+          "EDIT YOUR PROFILE",
           style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
         ),
         elevation: 0,
