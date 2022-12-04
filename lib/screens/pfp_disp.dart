@@ -171,15 +171,27 @@ class MyProfileInfo extends StatelessWidget {
                 child: Padding(
                   padding: const EdgeInsets.only(top: 10),
                   child: Column(
-                    children: const [
-                      Text("OPTIONS",
+                    children: [
+                      const Text("OPTIONS",
                           style: TextStyle(
                             fontSize: 30,
                             color: Colors.blue,
                           )),
-                      Divider(
+                      const Divider(
                         color: Colors.black,
                         thickness: 0.5,
+                        height: 30,
+                      ),
+                      Container(
+                        height: MediaQuery.of(context).size.height * 0.05,
+                        decoration: const BoxDecoration(
+                            color: Colors.grey,
+                            borderRadius: BorderRadius.only(
+                              topLeft: Radius.circular(30),
+                              topRight: Radius.circular(30),
+                              bottomLeft: Radius.circular(30),
+                              bottomRight: Radius.circular(30),
+                            )),
                       ),
                     ],
                   ),
