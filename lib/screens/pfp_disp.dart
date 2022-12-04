@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:hospital_auth/screens/bottom_nav_main.dart';
+import 'package:hospital_auth/screens/pfp_edit.dart';
 import 'package:hospital_auth/utils/color_utils.dart';
 import 'first_page.dart';
 
@@ -184,14 +185,62 @@ class MyProfileInfo extends StatelessWidget {
                       ),
                       Container(
                         height: MediaQuery.of(context).size.height * 0.05,
-                        decoration: const BoxDecoration(
-                            color: Colors.grey,
-                            borderRadius: BorderRadius.only(
-                              topLeft: Radius.circular(30),
-                              topRight: Radius.circular(30),
-                              bottomLeft: Radius.circular(30),
-                              bottomRight: Radius.circular(30),
-                            )),
+                        width: MediaQuery.of(context).size.width * 0.7,
+                        child: ElevatedButton(
+                          child: Text(
+                            "EDIT PROFILE",
+                            style: TextStyle(color: Colors.black),
+                          ),
+                          onPressed: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: ((context) => MyProfile())));
+                          },
+                          style: ButtonStyle(
+                              //want to making elevation of the button as zero
+                              backgroundColor:
+                                  MaterialStateProperty.resolveWith((states) {
+                                if (states.contains(MaterialState.pressed)) {
+                                  return Colors.black26;
+                                }
+                                return Colors.white.withOpacity(0.0001);
+                              }),
+                              shape: MaterialStateProperty.all(
+                                  RoundedRectangleBorder(
+                                      borderRadius:
+                                          BorderRadius.circular(30)))),
+                        ),
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(top: 20),
+                        height: MediaQuery.of(context).size.height * 0.05,
+                        width: MediaQuery.of(context).size.width * 0.7,
+                        child: ElevatedButton(
+                          child: Text(
+                            "REPORT ABUSE",
+                            style: TextStyle(color: Colors.black),
+                          ),
+                          onPressed: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: ((context) => MyProfile())));
+                          },
+                          style: ButtonStyle(
+                              //want to making elevation of the button as zero
+                              backgroundColor:
+                                  MaterialStateProperty.resolveWith((states) {
+                                if (states.contains(MaterialState.pressed)) {
+                                  return Colors.black26;
+                                }
+                                return Colors.white.withOpacity(0.0001);
+                              }),
+                              shape: MaterialStateProperty.all(
+                                  RoundedRectangleBorder(
+                                      borderRadius:
+                                          BorderRadius.circular(30)))),
+                        ),
                       ),
                     ],
                   ),
