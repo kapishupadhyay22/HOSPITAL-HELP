@@ -1,4 +1,0 @@
-#Sun Dec 04 17:37:14 IST 2022
-base.0=/Users/kapishupadhyay/Documents/GitHub/Hospital_App/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-renamed.0=classes.dex
-path.0=classes.dex

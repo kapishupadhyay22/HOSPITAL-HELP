@@ -1,4 +1,5 @@
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:hospital_auth/screens/bottom_nav_main.dart';
 import '../reusable_widget/resuable_widget.dart';
@@ -19,6 +20,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
   final TextEditingController _height = TextEditingController();
   final TextEditingController _weight = TextEditingController();
   final TextEditingController _gender = TextEditingController();
+  final TextEditingController _age = TextEditingController();
+  final TextEditingController _bloodGroup = TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -67,6 +70,16 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 const SizedBox(
                   height: 20,
                 ),
+                reusableTextField("Enter Blood Group", Icons.bloodtype_outlined,
+                    true, _bloodGroup),
+                const SizedBox(
+                  height: 20,
+                ),
+                reusableTextField(
+                    "Age", Icons.person_outline_rounded, true, _age),
+                const SizedBox(
+                  height: 20,
+                ),
                 reusableTextField(
                     "Enter Weight", Icons.line_weight, true, _weight),
                 const SizedBox(
@@ -78,6 +91,16 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   height: 20,
                 ),
                 signInSignUpButton(context, false, () {
+                  FirebaseFirestore.instance.collection('users').add({
+                    'name': _userNameTextController.toString(),
+                    'age': _age.text,
+                    'blood': _bloodGroup.text,
+                    'gender': _gender.text,
+                    'height': _height.text,
+                    'weight': _weight.text
+                  }).then((value) => {
+                        if (value != null) {print(value)}
+                      });
                   FirebaseAuth.instance
                       .createUserWithEmailAndPassword(
                           email: _emailTextController.text,
