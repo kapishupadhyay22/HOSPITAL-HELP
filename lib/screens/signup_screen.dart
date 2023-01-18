@@ -1,5 +1,4 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:hospital_auth/screens/bottom_nav_main.dart';
 import '../reusable_widget/resuable_widget.dart';

@@ -75,7 +75,7 @@ class MyProfileInfo extends StatelessWidget {
                         height: MediaQuery.of(context).size.height * 0.14,
                       ),
                       Container(
-                        child: Text(
+                        child: const Text(
                           "19 years (MALE)",
                           style: TextStyle(fontSize: 20),
                         ),
@@ -87,7 +87,7 @@ class MyProfileInfo extends StatelessWidget {
                             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                             children: [
                               Column(
-                                children: [
+                                children: const [
                                   Text(
                                     "Blood",
                                     style: TextStyle(fontSize: 25),
@@ -108,7 +108,7 @@ class MyProfileInfo extends StatelessWidget {
                                 thickness: 0.5,
                               ),
                               Column(
-                                children: [
+                                children: const [
                                   Text(
                                     "Height",
                                     style: TextStyle(fontSize: 25),
@@ -129,7 +129,7 @@ class MyProfileInfo extends StatelessWidget {
                                 thickness: 0.5,
                               ),
                               Column(
-                                children: [
+                                children: const [
                                   Text(
                                     "Weight",
                                     style: TextStyle(fontSize: 25),
@@ -189,13 +189,13 @@ class MyProfileInfo extends StatelessWidget {
                         child: ElevatedButton(
                           child: Text(
                             "EDIT PROFILE",
-                            style: TextStyle(color: Colors.black),
+                            style: const TextStyle(color: Colors.black),
                           ),
                           onPressed: () {
                             Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: ((context) => MyProfile())));
+                                    builder: ((context) => const MyProfile())));
                           },
                           style: ButtonStyle(
                               //want to making elevation of the button as zero
@@ -219,13 +219,13 @@ class MyProfileInfo extends StatelessWidget {
                         child: ElevatedButton(
                           child: Text(
                             "REPORT ABUSE",
-                            style: TextStyle(color: Colors.black),
+                            style: const TextStyle(color: Colors.black),
                           ),
                           onPressed: () {
                             Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: ((context) => MyProfile())));
+                                    builder: ((context) => const MyProfile())));
                           },
                           style: ButtonStyle(
                               //want to making elevation of the button as zero
