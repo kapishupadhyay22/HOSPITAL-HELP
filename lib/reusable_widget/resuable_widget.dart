@@ -77,7 +77,7 @@ Container listButton(
         }
       },
       style: ButtonStyle(
-          //want to making elevation of the button as zero
+          //want to make elevation of the button as zero
           backgroundColor: MaterialStateProperty.resolveWith((states) {
             if (states.contains(MaterialState.pressed)) {
               return Colors.black26;

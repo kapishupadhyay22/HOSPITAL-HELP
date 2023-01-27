@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hospital_auth/screens/home_scren.dart';
 import 'package:hospital_auth/screens/pfp_disp.dart';
-import 'package:hospital_auth/screens/pfp_edit.dart';
 
 class BottomNav extends StatefulWidget {
   const BottomNav({super.key});
