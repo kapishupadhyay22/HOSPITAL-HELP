@@ -6,8 +6,6 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   runApp(const MyApp());
-  var voyager = spacecraft('Voyager I', DateTime(1977, 9, 5));
-  voyager.describe();
 }
 
 var a = 1;
